@@ -1,20 +1,33 @@
-Privacy Policy for VO₂ Max Widget
+# VO2max Hero – Privacy Policy
 
-VO₂ Max Widget is a simple app that allows you to view your latest VO₂ max reading from Apple Health on your Home Screen via a widget. We value your privacy and are committed to protecting your personal information.
+Last updated: August 15, 2026
 
-Data Collection and Use
+Hosted page: https://negovskiy.github.io/VO2max-agreement/
 
-VO₂ Max Widget does not collect, store, or share any personal data.
-The app requests permission to read your VO₂ max data from Apple Health. This data is solely used to display your latest VO₂ max reading on the Home Screen widget.
-No data is transmitted to our servers or shared with third parties.
-The app does not require an internet connection and does not transmit any data over the internet.
-Permissions
+Terms of Use (Apple’s Standard EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 
-The app requires permission to access your VO₂ max data from Apple Health. This permission is necessary to display your latest reading on the widget.
-You can manage this permission at any time through your device’s settings.
-Third-Party Services
+Contact: a.negovskiy@gmail.com
 
-VO₂ Max Widget does not use any third-party services or libraries that collect data.
-Changes to This Privacy Policy
+## Health data
 
-We may update this Privacy Policy from time to time. Any changes will be reflected on this page.
+VO2max Hero reads VO2max, date of birth, biological sex, height, and weight from Apple Health so we can show your stats and personalize AI insights. We never write health data. Health samples stay on your device except the values you choose to send when requesting an AI insight.
+
+## Subscriptions
+
+Purchases are processed by Apple. We use RevenueCat to check whether your Pro subscription is active so we can hide ads and unlock extra AI insights. RevenueCat receives an anonymous app user ID and purchase status, not your Health data.
+
+## Ads
+
+Free users see a banner ad served by Google AdMob. Pro subscribers do not see ads.
+
+## Analytics
+
+App Store builds send anonymous usage events (for example tab taps and paywall funnel events) through Firebase Analytics. Debug and TestFlight builds do not enable analytics collection.
+
+## AI insights
+
+If you request an AI insight, the selected VO2max readings and any available demographics are sent to our proxy so a language model can generate the response. Free includes 1 insight per hour. Pro unlocks extra insights with a fair-use cap. We do not sell personal data.
+
+## Contact
+
+Questions about this policy: a.negovskiy@gmail.com
