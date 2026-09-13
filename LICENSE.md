@@ -22,7 +22,7 @@ Free users see a banner ad served by Google AdMob. Pro subscribers do not see ad
 
 ## Analytics
 
-App Store builds send anonymous usage events (for example tab taps and paywall funnel events) through Firebase Analytics. Debug and TestFlight builds do not enable analytics collection.
+App Store and TestFlight builds send anonymous usage events (for example tab taps and paywall funnel events) through Firebase Analytics. Debug builds do not enable analytics collection.
 
 ## AI insights
 
