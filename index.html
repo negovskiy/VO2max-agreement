@@ -31,21 +31,30 @@
 </head>
 <body>
     <h1>VO2 max Hero – Privacy Policy</h1>
-    <p class="updated">Last updated: October 7, 2026</p>
+    <p class="updated">Last updated: October 11, 2026</p>
 
     <div class="section">
-        <h2>Health data</h2>
-        <p>VO2 max Hero reads VO₂ max, workouts, date of birth, biological sex, height and weight from Apple Health. It uses them to show your numbers, name the workout behind a reading and work out your Fitness Age. It never writes to Apple Health, and your workouts never leave your iPhone.</p>
+        <h2>Who we are</h2>
+        <p>VO2 max Hero is made by Andrey Negovskiy. Contact: <a href="mailto:a.negovskiy@gmail.com">a.negovskiy@gmail.com</a>. There is no account and no sign-in.</p>
     </div>
 
     <div class="section">
-        <h2>Coach and AI insights</h2>
-        <p>The app sends your numbers to the AI only after you agree, and you can turn that off in Settings &rsaquo; AI and privacy. When you ask Coach or request an insight, the app sends your VO₂ max readings and their dates, your age, sex, height and weight, and your question with the earlier messages of that conversation. It goes to our own server, which passes it to OpenRouter so an AI model can write the answer. Our server doesn&#8217;t keep what you send, and it never gets your name or your Apple Account. Coach has fair-use limits on Free and Pro, so it&#8217;s not unlimited.</p>
+        <h2>Health data</h2>
+        <p>VO2 max Hero reads VO₂ max, workouts, date of birth, biological sex, height and weight from Apple Health. It uses them to show your numbers, name the workout behind a reading and work out your Fitness Age. It never writes to Apple Health, and your workouts never leave your iPhone. We never use Health data for ads or marketing, never sell it, and never store it in iCloud.</p>
+    </div>
+
+    <div class="section">
+        <h2>Coach and AI</h2>
+        <p>Coach is part of Pro. It sends your data to a third-party AI service only after you tap Allow, and you can turn that off in Settings &rsaquo; AI and privacy. Turning it off stops future sending but can&#8217;t recall what was already sent.</p>
+        <p>When you ask Coach, the app sends your VO₂ max readings in the range you pick (with their dates and source), your age, sex, height and weight, your Fitness Age and percentile, and your question with the earlier messages of that conversation. If you reply to the Monday brief, the brief is sent too. It never sends your name, your Apple Account or your date of birth.</p>
+        <p>It goes to our own server, which runs on Cloudflare in the US. Our server passes it, without your app user ID or IP address, to OpenRouter (US), which sends it to Anthropic&#8217;s Claude model (US) to write the answer. If Anthropic is busy, the same Claude model may answer through Amazon Bedrock or Google Vertex AI (US).</p>
+        <p>Our server doesn&#8217;t keep what you send. OpenRouter doesn&#8217;t store it. Anthropic doesn&#8217;t use it for training and deletes it within 30 days, or keeps it up to 2 years only if its safety systems flag misuse. Coach has a fair-use limit, so it&#8217;s not unlimited. Coach gives general fitness guidance, not medical advice.</p>
+        <p>Versions before 2.0 sent the same kind of data for AI insights through our server and OpenRouter.</p>
     </div>
 
     <div class="section">
         <h2>Coach history</h2>
-        <p>Your Coach conversations are kept on your iPhone. You can delete them in Settings &rsaquo; AI and privacy. Deleting them doesn&#8217;t recall what was already sent to get an answer.</p>
+        <p>Your Coach conversations are kept on your iPhone and aren&#8217;t included in backups. You can delete them in Settings &rsaquo; AI and privacy. Deleting them doesn&#8217;t recall what was already sent to get an answer.</p>
     </div>
 
     <div class="section">
@@ -55,12 +64,22 @@
 
     <div class="section">
         <h2>Limits on our server</h2>
-        <p>To count Coach limits, our server keeps an anonymous app user ID, or your IP address if there is none, until the limit resets.</p>
+        <p>To count Coach limits, our server uses a random app user ID, or your IP address if there is none, until the limit resets. Its logs never keep your IP address. They keep only a short hashed form of the app user ID, for up to 7 days.</p>
     </div>
 
     <div class="section">
         <h2>Subscriptions</h2>
-        <p>Purchases are processed by Apple. RevenueCat tells the app and our server whether Pro is active, using an anonymous app user ID and your purchase status. It never gets your Health data.</p>
+        <p>Purchases are processed by Apple. RevenueCat (US) tells the app and our server whether Pro is active, using a random app user ID and your purchase status. It never gets your Health data.</p>
+    </div>
+
+    <div class="section">
+        <h2>Analytics</h2>
+        <p>App Store builds send usage events, like tab taps and paywall steps, to Google through Firebase Analytics. They are linked to your random app user ID, so they are pseudonymous, not anonymous. They never include your readings or what you ask Coach. TestFlight and Debug builds send none. We don&#8217;t sell personal data.</p>
+    </div>
+
+    <div class="section">
+        <h2>Crash reports</h2>
+        <p>TestFlight and App Store builds send crash reports to Google through Firebase Crashlytics: a stack trace, your device model, your OS version and an installation ID. They aren&#8217;t linked to your app user ID. Debug builds send none.</p>
     </div>
 
     <div class="section">
@@ -69,8 +88,29 @@
     </div>
 
     <div class="section">
-        <h2>Analytics</h2>
-        <p>App Store and TestFlight builds send anonymous usage events, like tab taps and paywall steps, through Firebase Analytics. They never include your readings or what you ask Coach. Debug builds send none. We don&#8217;t sell personal data.</p>
+        <h2>Who receives data</h2>
+        <p>Cloudflare (our server), OpenRouter and Anthropic, or Amazon or Google when they run Claude for Anthropic (Coach answers), RevenueCat (subscriptions), Google Firebase (analytics and crash reports) and Apple (payments). They are in the US, and they handle the data to provide their service to us.</p>
+    </div>
+
+    <div class="section">
+        <h2>How long we keep it</h2>
+        <ul>
+            <li>Coach conversations: on your iPhone until you delete them.</li>
+            <li>What Coach sends: not kept by our server or OpenRouter. Anthropic deletes it within 30 days (up to 2 years if flagged for misuse).</li>
+            <li>Server logs: up to 7 days, with a hashed app user ID and no IP address.</li>
+            <li>Limit counters: until the limit resets.</li>
+            <li>Analytics, crash reports and subscription status: kept by Google and RevenueCat under their own retention rules.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Your choices and rights</h2>
+        <p>You can withdraw consent for Coach at any time in Settings &rsaquo; AI and privacy, and delete your Coach history there too. Removing Health access in the Health app stops the app reading new data. To ask for access to, correction or deletion of other data, or to object, email <a href="mailto:a.negovskiy@gmail.com">a.negovskiy@gmail.com</a>. We don&#8217;t know who you are, so we may ask for details that help us find your records. If you&#8217;re in the EU or UK, you can also complain to your data protection authority.</p>
+    </div>
+
+    <div class="section">
+        <h2>Children</h2>
+        <p>The app isn&#8217;t meant for children under 16.</p>
     </div>
 
     <div class="section">
