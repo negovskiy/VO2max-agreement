@@ -26,7 +26,7 @@ App Store and TestFlight builds send anonymous usage events (for example tab tap
 
 ## AI insights
 
-If you request an AI insight, the selected VO2max readings and any available demographics are sent to our proxy so a language model can generate the response. Free includes 1 insight per hour. Pro unlocks extra insights with a fair-use cap. We do not sell personal data.
+If you ask Coach a question, the selected VO2max readings and any available demographics are sent to our proxy so a language model can generate the answer. Coach is part of Pro and has a fair-use cap. We do not sell personal data.
 
 ## Contact
 
